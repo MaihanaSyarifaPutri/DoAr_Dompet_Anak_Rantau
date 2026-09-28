@@ -131,7 +131,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
 # =========================================================
 # HERO HEADER
 # =========================================================
@@ -144,11 +143,9 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
 # =========================================================
 # FUNGSI BANTU
 # =========================================================
-
 def kategorikan_rasio(rasio, batas_rendah, batas_sedang):
     if rasio < batas_rendah:
         return "Rendah"
@@ -373,14 +370,14 @@ with tab2:
             st.write("💡 Rekomendasi untuk Kamu:")
             if prediksi == "Defisit":
                 isi = (
-                    "- ⚠️ Peringatan Kantong Kering! Pengeluaran kamu tergolong boros.\n"
-                    "- Segera kurangi pengeluaran lifestyle dan frekuensi makan di luar."
-                    "- Tingkatkan alokasi tabungan (saving) minimal 15–20% dari uang saku."
+                    " ⚠️ Peringatan Kantong Kering! Pengeluaran kamu tergolong boros.\n"
+                    " Segera kurangi pengeluaran lifestyle dan frekuensi makan di luar."
+                    " Tingkatkan alokasi tabungan (saving) minimal 15–20% dari uang saku."
                 )
             else:
                 isi = (
-                    "- 🎉 JOS JIS LEK PERTAHANKAN 🎉\n"
-                    "- anggaran kamu aman,tambah porsi tabungan atau investasi."
+                    " 🎉 JOS JIS LEK PERTAHANKAN 🎉\n"
+                    " anggaran kamu aman, perbanyak lagi porsi menabung!"
                 )
             st.markdown(f'<div class="tip-box">{isi.replace(chr(10), "<br>")}</div>', unsafe_allow_html=True)
             st.markdown("</div>", unsafe_allow_html=True)

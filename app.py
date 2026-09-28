@@ -370,17 +370,17 @@ with tab2:
                 st.markdown("</div>", unsafe_allow_html=True)
 
             st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.write("**💡 Rekomendasi untuk Kamu:**")
+            st.write("💡 Rekomendasi untuk Kamu:")
             if prediksi == "Defisit":
                 isi = (
-                    "- ⚠️ **Peringatan Risiko Defisit!** Pengeluaran kamu tergolong boros.\n"
-                    "- Segera kurangi pengeluaran *lifestyle* dan frekuensi makan di luar.\n"
-                    "- Tingkatkan alokasi tabungan (*saving*) minimal 15–20% dari uang saku."
+                    "- ⚠️ Peringatan Kantong Kering! Pengeluaran kamu tergolong boros.\n"
+                    "- Segera kurangi pengeluaran lifestyle dan frekuensi makan di luar."
+                    "- Tingkatkan alokasi tabungan (saving) minimal 15–20% dari uang saku."
                 )
             else:
                 isi = (
-                    "- 🎉 **Kondisi Keuangan Sehat!** Pola alokasi anggaran kamu sudah aman.\n"
-                    "- Pertahankan rasio pengeluaran saat ini dan pertimbangkan untuk menambah porsi tabungan/investasi."
+                    "- 🎉 JOS JIS LEK PERTAHANKAN 🎉\n"
+                    "- anggaran kamu aman,tambah porsi tabungan atau investasi."
                 )
             st.markdown(f'<div class="tip-box">{isi.replace(chr(10), "<br>")}</div>', unsafe_allow_html=True)
             st.markdown("</div>", unsafe_allow_html=True)

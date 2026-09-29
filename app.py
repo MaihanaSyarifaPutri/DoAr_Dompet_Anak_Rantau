@@ -393,6 +393,6 @@ with tab2:
             st.error(f"Terjadi kesalahan saat memuat dataset `dataset_keuangan.csv`: {e}")
 
 st.caption(
-    "Aplikasi DoAR — Model diprediksi secara real-time menggunakan algoritma Naive Bayes "
+    "Aplikasi DoAR — Model diprediksi menggunakan algoritma Naive Bayes "
     "berdasarkan dataset responden mahasiswa rantau."
 )

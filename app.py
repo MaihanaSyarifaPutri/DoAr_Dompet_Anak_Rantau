@@ -129,7 +129,6 @@ with st.sidebar:
 st.markdown(
     """
     <div class="hero">
-        <span class="badge">✨ AI-Powered Budgeting</span>
         <h1>💸 DoAR — Dompet Anak Rantau</h1>
         <p>Kelola uang bulanan dan pantau risiko keuangan kamu dengan prediksi berbasis Naive Bayes.</p>
     </div>

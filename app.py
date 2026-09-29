@@ -301,16 +301,16 @@ with tab2:
             model, encoder = latih_model(df)
 
             rasio_saving = persen_saving / 100
-            kat_saving = kategorikan_rasio(rasio_saving, 0.10, 0.20)
+            kat_saving = kategorikan_rasio(rasio_saving, 0.15, 0.25)
             kat_uang_saku = kategorikan_nominal(uang_saku, 1_500_000, 2_500_000)
             kat_kebutuhan = kategorikan_rasio(
-                kebutuhan_esensial / uang_saku if uang_saku else 0, 0.60, 0.80
+                kebutuhan_esensial / uang_saku if uang_saku else 0, 0.30, 0.50
             )
             kat_lifestyle = kategorikan_rasio(
-                lifestyle / uang_saku if uang_saku else 0, 0.10, 0.20
+                lifestyle / uang_saku if uang_saku else 0, 0.10, 0.15
             )
             kat_makan = kategorikan_rasio(
-                makan / uang_saku if uang_saku else 0, 0.30, 0.50
+                makan / uang_saku if uang_saku else 0, 0.20, 0.30
             )
 
             input_baru = pd.DataFrame(
